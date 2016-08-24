@@ -2,6 +2,11 @@
 :wrench: A small function that takes an integer array 
 removes duplicates and sorts the results
 
+## Install
+```console
+go get github.com/theodesp/go-dedupesort/...
+```
+
 ## Example Usage
 
 ```code
