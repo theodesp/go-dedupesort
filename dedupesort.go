@@ -12,9 +12,8 @@ func DedupeSort(array []int) []int {
 	return array
 }
 
-func removeDuplicates(array []int) []int {
+func removeDuplicates(array []int) (result []int) {
 	seen := map[int]bool{}
-	result := []int{}
 
 	for _, value := range array {
 		if seen[value] == false {

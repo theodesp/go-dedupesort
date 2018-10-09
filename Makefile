@@ -1,5 +1,4 @@
 GO := go
-GODEP := godep
 CONVEY_PORT ?= 9042
 SOURCES := $(shell find . -type f -name "*.go")
 PACKAGES :=	$(shell go list ./... | grep -v /vendor/ | grep -v /cmd)
@@ -8,12 +7,7 @@ all:    build
 
 build:
 	$(GO) build
-	
-	
-.PHONY: godep-save
-godep-save:
-	$(GODEP) save $(PACKAGES)
-	
+
 .PHONY: convey
 convey:
 	$(GO) get github.com/smartystreets/goconvey

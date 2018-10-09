@@ -1,6 +1,0 @@
-mode: count
-github.com/theodesp/go-dedupesort/dedupesort.go:8.36,13.2 3 2
-github.com/theodesp/go-dedupesort/dedupesort.go:15.43,20.27 3 2
-github.com/theodesp/go-dedupesort/dedupesort.go:27.2,27.15 1 2
-github.com/theodesp/go-dedupesort/dedupesort.go:20.27,21.40 1 22
-github.com/theodesp/go-dedupesort/dedupesort.go:21.40,24.4 2 17
